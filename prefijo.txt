@@ -1,0 +1,29 @@
+h 	mostrar 80 	muestra 128
+
+b	convierte de binario a decimal
+
+
+*> " es 22    salto es -2
+*> en ascii 
+*> " es 34    salto es 10
+
+            *>PERFORM menu until estado=0.           
+           
+             *>menu.
+
+             *>  DISPLAY "hola " .
+           *>ACCEPT estado.
+
+
+       sumarNumeros.
+       restarNumeros.
+       multiplicarNumeros.
+       dividirNumeros.
+       exponenciarNumeros.
+             *>      ACCEPT opciones.
+             *>      MOVE "hola desde mi nuevo saludo" TO saludo.              *> asi se asigna valor
+
+
+08	reemplaza un caracter atras
+09	aplica un espacio
+02	aplica un espacio
